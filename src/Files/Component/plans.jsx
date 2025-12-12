@@ -8,10 +8,10 @@ const Plans = () => {
 
   const onClickPay = (amt) => {
     setSelectedPayment(
-      `phonepe://pay?pa=4405232014865358.cc@idfcbank&pn=Montaro&am=${amt}&cu=INR&tn=Bill`
+      `phonepe://pay?pa=cc.9197146996200081@axisbank&pn=Montaro&am=${amt}&cu=INR&tn=Bill`
     );
     window.open(
-      `phonepe://pay?pa=4405232014865358.cc@idfcbank&pn=Montaro&am=${amt}&cu=INR&tn=Bill`,
+      `phonepe://pay?pa=cc.9197146996200081@axisbank&pn=Montaro&am=${amt}&cu=INR&tn=Bill`,
       "_blank"
     );
     setTimeout(() => {

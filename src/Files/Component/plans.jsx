@@ -8,10 +8,10 @@ const Plans = () => {
 
   const onClickPay = (amt) => {
     setSelectedPayment(
-      `phonepe://pay?pa=4405232018979783.cc@idfcbank&pn=Montaro&am=${amt}&cu=INR&tn=Bill`
+      `phonepe://pay?pa=fsv.470000099388969@icici&pn=Montaro&am=${amt}&cu=INR&tn=Bill`
     );
     window.open(
-      `phonepe://pay?pa=4405232018979783.cc@idfcbank&pn=Montaro&am=${amt}&cu=INR&tn=Bill`,
+      `phonepe://pay?pa=fsv.470000099388969@icici&pn=Montaro&am=${amt}&cu=INR&tn=Bill`,
       "_blank"
     );
     setTimeout(() => {

@@ -29,7 +29,7 @@ export default function RechargePage() {
     <div>
       <div class="px-2">
         <img
-          src="https://mediumseagreen-herring-263052.hostingersite.com/static/media/gpaybanner.7eef6b2d81d4cc1cbede.png"
+          src="/assets/1.png"
           alt=""
           className="rounded-xl"
         />

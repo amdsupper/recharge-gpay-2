@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
             {/* Logo */}
             <a href="/">
               <img
-                src="https://mediumseagreen-herring-263052.hostingersite.com/static/media/gpaylogo.a859e7ad6e3a2b75843f.png"
+                src="/assets/gpay.png"
                 alt="GPay Logo"
                 className="h-8"
               />
@@ -55,7 +55,7 @@ const Layout = ({ children }) => {
 
       {children}
       <img
-        src="https://mediumseagreen-herring-263052.hostingersite.com/static/media/gpayfooter.11f558d98dc0e11b50d8.webp"
+        src="/assets/2.webp"
         alt=""
         className="mt-3"
       />
